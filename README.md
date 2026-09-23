@@ -4,21 +4,13 @@
 
 <sub>CS &amp; Applied Math @ Rutgers–Camden · US Dept. of State Gilman Scholar</sub>
 
-<br/><br/>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=CC0033&center=true&vCenter=true&width=620&height=36&lines=I+build+systems+that+run+themselves;A+homelab+that+deploys+and+heals+itself;An+RL+agent+learning+Street+Fighter+III;Open+to+ML+%2F+infrastructure+roles" alt="Now" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
-<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=CC0033&center=true&vCenter=true&width=620&height=36&lines=I+build+systems+that+run+themselves;A+homelab+that+deploys+and+heals+itself;An+RL+agent+learning+Street+Fighter+III;Open+to+ML+%2F+infrastructure+roles" alt="Now" />
 
 </div>
 
@@ -26,12 +18,7 @@
 
 ## 🏠 Homelab
 
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
-<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailscale-242E30?style=flat-square&logo=tailscale&logoColor=white" />
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" /> <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" /> <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" /> <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /> <img src="https://img.shields.io/badge/Tailscale-242E30?style=flat-square&logo=tailscale&logoColor=white" /> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" /> <img src="https://img.shields.io/badge/Pi--hole-96060C?style=flat-square&logo=pi-hole&logoColor=white" /> <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 
 Single Proxmox node managed entirely as **Infrastructure as Code** — GitOps declarative deploys, remote Terraform state, and CI that plans every change before it touches production.
 
@@ -49,8 +36,20 @@ These support media, hardened Docker services, a nightly LLM agent, and full obs
 
 **Subprojects** — GraphRAG · CUDA experiments · nightly agent · disposable sandboxed Claude Code LXCs (rootless Podman) · private finance & portfolio automation
 
-<!-- Homelab screenshot option: you have graphana.png in Downloads — add it as assets/homelab.png and uncomment: -->
+<!-- Homelab screenshot to-do: add your Grafana dashboard as assets/homelab.png and uncomment: -->
 <!-- <div align="center"><img src="assets/homelab.png" width="760" alt="Homelab observability" /></div> -->
+
+---
+
+## 🐚 Shell & desktop
+
+<img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" /> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" /> <img src="https://img.shields.io/badge/Arch-1793D1?style=flat-square&logo=archlinux&logoColor=white" /> <img src="https://img.shields.io/badge/Zsh-4EAA25?style=flat-square&logo=zsh&logoColor=white" /> <img src="https://img.shields.io/badge/zinit-1E90FF?style=flat-square" /> <img src="https://img.shields.io/badge/GlazeWM-88C0D0?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/zebar-2E3440?style=flat-square" /> <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" /> <img src="https://img.shields.io/badge/tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white" />
+
+Reproducible pieces of my setup (managed with chezmoi):
+- **[tmux.conf](https://github.com/Lucas-Liona/tmux.conf)** — my tmux config
+- **[glaze-wm-config](https://github.com/Lucas-Liona/glaze-wm-config)** — GlazeWM tiling on Windows
+- **[zebar-pomodoro](https://github.com/Lucas-Liona/zebar-pomodoro)** — status bar with a built-in pomodoro
+- **zsh_config** · **neovim-config** — *publishing soon*
 
 ---
 
@@ -62,8 +61,8 @@ These support media, hardened Docker services, a nightly LLM agent, and full obs
 |:--|:--|:--|
 | [**Pulsar Graph**](https://github.com/Lucas-Liona/obsidian-pulsar-graph) <img src="https://img.shields.io/github/stars/Lucas-Liona/obsidian-pulsar-graph?style=flat-square&logo=github&label=&color=CC0033" /> | Obsidian plugin — a temporal view of your knowledge graph | `TypeScript` |
 | [**Heat-Model**](https://github.com/Lucas-Liona/Heat-Model) | Heat-diffusion PDE solver — a numerical simulation with an interactive 3-D dashboard | `C++` · `pybind11` · `Python` · `Docker` |
+| [**RedLine**](https://github.com/Lucas-Liona/RedLine) | A game written in modern C++ | `C++` |
 | **IPyKanban** | A Jupyter-native kanban board | `Python` · soon |
-| **Screen Weave** | Cross-device screen tooling | `Kotlin` · soon |
 
 <a href="https://github.com/Lucas-Liona/obsidian-pulsar-graph"><img src="assets/pulsar-graph.png" width="48%" alt="Pulsar Graph" /></a>
 &nbsp;
@@ -76,18 +75,10 @@ These support media, hardened Docker services, a nightly LLM agent, and full obs
 | Project | What | Status |
 |:--|:--|:--|
 | **Street Fighter III: Third Strike** | A reinforcement-learning agent that learns to fight · `PyTorch` | `training · devlog soon` |
-| **Deal Radar** | Computer-vision + web-scraping deal finder · `Python` | `in progress` |
+| [**TiKV Distributed Security**](https://github.com/Lucas-Liona/TikV-Distributed-Security) | Security work on a distributed key-value store · `Rust` | `public` |
 | **LifeOS** | A self-tracking OS over my own data — TimescaleDB + pgvector, Grafana, Svelte | `live · private` |
 
 </div>
-
----
-
-## 🐚 Shell & desktop
-
-Reproducible pieces of my setup (managed with chezmoi):
-- **[zsh_config](https://github.com/Lucas-Liona/zsh_config)** — zinit-managed zsh, tuned for fast startup
-- **zebar** — my status bar, clean and minimal · `releasing soon`
 
 ---
 
