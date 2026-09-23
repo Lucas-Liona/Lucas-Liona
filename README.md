@@ -1,62 +1,56 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&pause=1000&color=CC0033&center=true&vCenter=true&repeat=false&width=460&height=48&lines=Lucas+Liona" alt="Lucas Liona" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&pause=1000&color=CC0033&center=true&vCenter=true&repeat=false&width=460&height=50&lines=Lucas+Liona" alt="Lucas Liona" />
 
 <sub>CS &amp; Applied Math @ Rutgers–Camden · US Dept. of State Gilman Scholar</sub>
 
-### I build systems that run themselves.
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=CC0033&center=true&vCenter=true&width=620&height=36&lines=I+build+systems+that+run+themselves;A+homelab+that+deploys+and+heals+itself;An+RL+agent+learning+Street+Fighter+III;Open+to+ML+%2F+infrastructure+roles" alt="Now" />
 
 <br/>
 
-**Infra**&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
 <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
 <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailscale-242E30?style=flat-square&logo=tailscale&logoColor=white" />
-
-**ML**&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-
-**Shell**&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Zsh-4EAA25?style=flat-square&logo=zsh&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-
-<br/>
-
-⚡ **Now** — building a self-hosting homelab, an RL agent that learns Street Fighter III, and LifeOS.
-Open to applied **ML / infrastructure** roles · into open source.
 
 </div>
 
 ---
 
-## 🏠 Homelab — declarative, self-hosted, runs itself
+## 🏠 Homelab
 
-Single Proxmox node managed entirely as **Infrastructure as Code**. GitOps declarative deploys, remote Terraform state, and CI that **plans every change before it touches production**.
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailscale-242E30?style=flat-square&logo=tailscale&logoColor=white" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
 
-| | Container | Role |
-|---|---|---|
-| 🛰 | **Tailscale subnet router** | reach everything from anywhere — nothing exposed to the internet |
-| 🎮 | **GPU-passthrough LXC** | CUDA + model workloads for any other container |
-| 🔁 | **CI/CD runner** | merge-to-deploy · Renovate checks Docker pins · Terraform state in Cloudflare R2 |
+Single Proxmox node managed entirely as **Infrastructure as Code** — GitOps declarative deploys, remote Terraform state, and CI that plans every change before it touches production.
+
+My three most important containers:
+- **Tailscale subnet router** — reach everything from anywhere without exposing it to the internet
+- **GPU-passthrough LXC** — CUDA and model workloads for any other container
+- **CI/CD runner** — merge-to-deploy, Renovate checks Docker pins, Terraform state in Cloudflare R2
 
 These support media, hardened Docker services, a nightly LLM agent, and full observability (Prometheus / Grafana).
 
-**Tooling** — SOPS + age · Claude Code + custom skills · SSH · workmux worktrees
+**Tooling**
+- SOPS + age
+- Claude Code + custom skills
+- SSH, workmux worktrees
+
 **Subprojects** — GraphRAG · CUDA experiments · nightly agent · disposable sandboxed Claude Code LXCs (rootless Podman) · private finance & portfolio automation
 
-<!-- SCREENSHOT — your proudest thing. Add your LinkedIn dashboard shot to the repo as homelab.png and uncomment: -->
-<!-- <div align="center"><img src="homelab.png" width="720" alt="Homelab dashboard" /></div> -->
-
-*Deep-dive writeup in progress →*
+<!-- Homelab screenshot option: you have graphana.png in Downloads — add it as assets/homelab.png and uncomment: -->
+<!-- <div align="center"><img src="assets/homelab.png" width="760" alt="Homelab observability" /></div> -->
 
 ---
 
@@ -64,12 +58,18 @@ These support media, hardened Docker services, a nightly LLM agent, and full obs
 
 ## 🛠 Building
 
-| Project | What it does | |
+| Project | What it does | Stack |
 |:--|:--|:--|
-| [**Pulsar Graph**](https://github.com/Lucas-Liona/obsidian-pulsar-graph) | Obsidian plugin — a temporal view of your knowledge graph · `TypeScript` | <img src="https://img.shields.io/github/stars/Lucas-Liona/obsidian-pulsar-graph?style=flat-square&logo=github&label=&color=CC0033" /> |
-| [**Heat-Model**](https://github.com/Lucas-Liona/Heat-Model) | Heat-diffusion PDE solver — C++ core (pybind11) + Python/Dash, Dockerized | <img src="https://img.shields.io/github/stars/Lucas-Liona/Heat-Model?style=flat-square&logo=github&label=&color=CC0033" /> |
-| **IPyKanban** | A Jupyter-native kanban board · `Python` | `releasing soon` |
-| **Screen Weave** | Cross-device screen tooling · `Kotlin` | `releasing soon` |
+| [**Pulsar Graph**](https://github.com/Lucas-Liona/obsidian-pulsar-graph) <img src="https://img.shields.io/github/stars/Lucas-Liona/obsidian-pulsar-graph?style=flat-square&logo=github&label=&color=CC0033" /> | Obsidian plugin — a temporal view of your knowledge graph | `TypeScript` |
+| [**Heat-Model**](https://github.com/Lucas-Liona/Heat-Model) | Heat-diffusion PDE solver — a numerical simulation with an interactive 3-D dashboard | `C++` · `pybind11` · `Python` · `Docker` |
+| **IPyKanban** | A Jupyter-native kanban board | `Python` · soon |
+| **Screen Weave** | Cross-device screen tooling | `Kotlin` · soon |
+
+<a href="https://github.com/Lucas-Liona/obsidian-pulsar-graph"><img src="assets/pulsar-graph.png" width="48%" alt="Pulsar Graph" /></a>
+&nbsp;
+<a href="https://github.com/Lucas-Liona/Heat-Model"><img src="assets/heat-model.png" width="48%" alt="Heat-Model simulation" /></a>
+
+<sub><b>Pulsar Graph</b> — knowledge graph over time&nbsp;&nbsp;·&nbsp;&nbsp;<b>Heat-Model</b> — heat diffusion in a coffee cup</sub>
 
 ## 🧪 Experiments
 
@@ -114,7 +114,7 @@ Reproducible pieces of my setup (managed with chezmoi):
 
 <br/><br/>
 
-<!-- Snake renders after .github/workflows/snake.yml runs once (creates the `output` branch). Until then it 404s. -->
+<!-- Snake renders after .github/workflows/snake.yml runs on main once (creates the `output` branch). -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lucas-Liona/Lucas-Liona/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lucas-Liona/Lucas-Liona/output/github-snake.svg" />
@@ -124,7 +124,5 @@ Reproducible pieces of my setup (managed with chezmoi):
 <br/><br/>
 
 **[lucasliona.tech](https://lucasliona.tech)**&nbsp;·&nbsp;**[LinkedIn](https://linkedin.com/in/lucas-liona)**
-
-<sub>powered by curiosity, caffeine, and a homelab that won't quit</sub>
 
 </div>
